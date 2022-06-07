@@ -1,0 +1,30 @@
+<div class="container">
+  <h1 class="title">Sign Up To Start Shopping</h1>
+   <form #login="ngForm" (ngSubmit)="submit(login)"> <!-- if you want to add more features/ conditions for every input open the console and see for validations -->
+    <div class="form-group">
+      <label class="lab" for="fullname">Full Name :</label> <br>
+      <input required type="text" #name ="ngModel" name="fullname" minlength="2" maxlength="20" class="form-control box"  ngModel>
+      <div *ngIf="name.touched && name.invalid" class="alert alert-danger">Name is required</div>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="lab" for="email">E-mail :</label> <br>
+      <input required #email ="ngModel" type="email" name="email" class="form-control box" ngModel>
+      <div *ngIf="email.touched && email.invalid" class="alert alert-danger">E-mail is required</div>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="lab" for="password">Password :</label> <br>
+      <input minlength="6" maxlength="16" #password ="ngModel" required type="password" name="password" class="form-control box" ngModel>
+      <div *ngIf="password.touched && password.invalid" class="alert alert-danger">Password is required</div>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="lab" for="confirm">Confirm Password:</label> <br>
+      <input minlength="6" maxlength="16" #confirm ="ngModel" required type="password" name="confirm" class="form-control box" ngModel>
+      <div *ngIf="confirm.touched && confirm.invalid" class="alert alert-danger">Confirm Password is required</div>
+    </div>
+    <pre></pre>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+</div>
