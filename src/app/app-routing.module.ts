@@ -6,9 +6,11 @@ import { MenComponent } from 'src/pages/men/men.component';
 import { WomenComponent } from 'src/pages/women/women.component';
 import { LoginComponent } from './login/login.component';
 
-const routes: Routes = [
+export const routes: Routes = [
     { path: 'home', component: HomeComponent },
-    { path: '', component: HomeComponent },
+    { path: '',
+    redirectTo: '/home',
+    pathMatch: 'full' },
     { path: 'men', component: MenComponent },
     { path: 'women', component: WomenComponent },
     { path: 'kids', component: KidsComponent },

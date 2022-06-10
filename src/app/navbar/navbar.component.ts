@@ -1,6 +1,5 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { User } from 'src/models/user.model';
-import { EventEmitter } from 'stream';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
