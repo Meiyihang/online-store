@@ -17,3 +17,10 @@ img{
   width: 120px;
   height: 100%;
 }
+.login{
+  text-align: center;
+  height: 120px;
+}
+.signup{
+  margin: 18px auto;
+}
