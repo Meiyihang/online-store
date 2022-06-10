@@ -1,0 +1,45 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #000000;
+}
+.btn{
+  background: #FAA14F;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.box{
+  width: 800px;
+  height: 40px;
+  left: 246px;
+  top: 1505px;
+
+  background: #C4C4C4;
+}
+
+
+.lab{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
