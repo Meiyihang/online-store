@@ -1,0 +1,64 @@
+.container {
+  padding-top: 120px;
+}
+.women-shirts {
+  background-image: url('../../assets/women-shirts.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.women-pants {
+  background-image: url('../../assets/women-pants.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.women-dress {
+  background-image: url('../../assets/women-dress.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.row
+{
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+}
+.women-accessories {
+  background-image: url('../../assets/women-accessories.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.women-swimwear {
+  background-image: url('../../assets/women-swimwear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.women-activewear {
+  background-image: url('../../assets/women-activewear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}

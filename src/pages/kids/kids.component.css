@@ -1,0 +1,71 @@
+.container {
+  padding-top: 140px;
+}
+.kids-shirts {
+  background-image: url('../../assets/kids-shirts.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+.kids-pants {
+  background-image: url('../../assets/kids-pants.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.kids-shoes {
+  background-image: url('../../assets/kids-shoes.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.kids-accessories
+{
+  background-image: url('../../assets/kids-accessories.png');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.kids-swimwear
+{
+  background-image: url('../../assets/kids-swimwear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.kids-activewear{
+  background-image: url('../../assets/kids-activewear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.row
+{
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+}

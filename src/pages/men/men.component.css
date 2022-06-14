@@ -1,0 +1,64 @@
+.container {
+  padding-top: 120px;
+}
+.men-shirts {
+  background-image: url('../../assets/men-shirts.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.men-pants {
+  background-image: url('../../assets/men-pants.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.men-shoes {
+  background-image: url('../../assets/men-shoes.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.row
+{
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+}
+.men-accessories {
+  background-image: url('../../assets/men-accessories.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.men-swimwear {
+  background-image: url('../../assets/men-swimwear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.men-activewear {
+  background-image: url('../../assets/men-activewear.jpg');
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
