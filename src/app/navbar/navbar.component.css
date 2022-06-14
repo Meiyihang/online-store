@@ -1,13 +1,17 @@
 .nav-container {
   background-color: #FAA14F;
-  overflow: hidden;
   width: 100%;
   height: 120px;
   color: #000000;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
+
 .nav-container a{
   margin:auto 0;
   font-size: 36px;
@@ -21,6 +25,12 @@ img{
   text-align: center;
   height: 120px;
 }
-.signup{
-  margin: 18px auto;
+
+
+@media (max-width: 991px ){
+  .nav-container{
+    padding: 10px 20px;
+    flex-direction: column;
+    height: auto;
+  }
 }
