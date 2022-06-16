@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { FormComponentComponent } from './form-component/form-component/form-component.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ContactusComponent } from 'src/pages/contactus/contactus.component';
+import { OurpoliciesComponent } from 'src/pages/ourpolicies/ourpolicies.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { FormsModule } from '@angular/forms';
     MenComponent,
     WomenComponent,
     KidsComponent,
+    ContactusComponent,
+    OurpoliciesComponent,
     LoginComponent,
     FormComponentComponent
   ],
