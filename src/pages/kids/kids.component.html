@@ -1,26 +1,23 @@
 <app-navbar></app-navbar>
-<div class="container">
-    <div class="row">
-      <div class="kids-shirts col-4">
-          Shirts
+
+<div *ngIf="!selectedCategory" class="products-container">
+  <h1>Shop by Category</h1>
+  <div class="product-grid">
+      <div *ngFor="let category of categories" class="product-square">
+          <img [src]="category.pictureUrl" (click)="onCategoryClick(category.id)" />
+          <p style="font: 40px bold;">{{category.name}}</p>
       </div>
-      <div class="kids-pants col-4">
-          pants
+  </div>
+</div>
+
+<!-- Product grid -->
+<div *ngIf="selectedCategory" class="products-container">
+  <h1>Products</h1>
+  <div class="product-grid">
+      <div *ngFor="let product of products" class="product-square">
+          <img [src]="product.pictureUrls[0]" />
+          <p>{{product.name}}</p>
       </div>
-      <div class="kids-shoes col-4">
-          shoes
-      </div>
-    </div>
-    <div class="row">
-      <div class="kids-accessories col-4">
-          Accessories
-      </div>
-      <div class="kids-swimwear col-4">
-          Swim Wear
-      </div>
-      <div class="kids-activewear col-4">
-          Active Wear
-      </div>
-    </div>
+  </div>
 </div>
 <app-footer></app-footer>

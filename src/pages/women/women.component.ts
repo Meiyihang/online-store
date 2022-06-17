@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Product, ProductCategory, ProductCategoryType } from 'src/models/product.model';
+import { ProductService } from 'src/services/women.product.service';
 @Component({
   selector: 'app-women',
   templateUrl: './women.component.html',
@@ -7,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WomenComponent implements OnInit {
 
-  constructor() { }
+  public products: Product[] = [];
+
+  public categories: ProductCategory[] = [];
+
+  public selectedCategory?:ProductCategoryType;
+  productService: any;
+
+  constructor(
+    private womenProductService: ProductService
+  ) {}
 
   ngOnInit(): void {
+    this.categories = this.womenProductService.getCategories();
   }
+
+  public onCategoryClick(womenType: ProductCategoryType) {
+    this.selectedCategory = womenType;
+
+    this.products = this.productService.getProducts(womenType);
+}
 
 }

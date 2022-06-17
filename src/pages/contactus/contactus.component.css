@@ -1,5 +1,16 @@
 form
 {
-    margin-top: 150px;
-    margin-left: 20px;
+    margin-top: 250px;
 }
+
+.color{
+  background-color: #FAA14F;
+  border: #FAA14F;
+  margin-top: 20px;
+}
+
+.form{
+  text-align: center;
+}
+
+

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Product, ProductCategory, ProductCategoryType } from 'src/models/product.model';
+import { ProductService } from 'src/services/kids.product.service';
 
 @Component({
   selector: 'app-kids',
@@ -7,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KidsComponent implements OnInit {
 
-  constructor() { }
+  public products: Product[] = [];
+
+  public categories: ProductCategory[] = [];
+
+  public selectedCategory?:ProductCategoryType;
+  productService: any;
+
+  constructor(
+    private menProductService: ProductService
+  ) {}
 
   ngOnInit(): void {
+    this.categories = this.menProductService.getCategories();
   }
+
+  public onCategoryClick(menType: ProductCategoryType) {
+    this.selectedCategory = menType;
+
+    this.products = this.productService.getProducts(menType);
+}
+
+
 
 }

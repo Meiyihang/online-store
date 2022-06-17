@@ -1,70 +1,33 @@
-.container {
-  padding-top: 140px;
-}
-.kids-shirts {
-  background-image: url('../../assets/kids-shirts.jpg');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
-  text-align: center;
-  font-size: larger;
-  font-weight: bold;
+.products-container {
+  margin: 200px;
+  background-color: white;
 
 }
 
-.kids-pants {
-  background-image: url('../../assets/kids-pants.jpg');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
+.products-container h1 {
+  margin: 0;
   text-align: center;
-  font-size: larger;
-  font-weight: bold;
-}
-.kids-shoes {
-  background-image: url('../../assets/kids-shoes.jpg');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
-  text-align: center;
-  font-size: larger;
-  font-weight: bold;
+  padding: 20px 0;
 }
 
-.kids-accessories
-{
-  background-image: url('../../assets/kids-accessories.png');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
-  text-align: center;
-  font-size: larger;
-  font-weight: bold;
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  margin: 0 30px;
 }
 
-.kids-swimwear
-{
-  background-image: url('../../assets/kids-swimwear.jpg');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
-  text-align: center;
-  font-size: larger;
-  font-weight: bold;
+.product-grid img {
+  width: 100%;
+  height: 80%;
 }
 
-.kids-activewear{
-  background-image: url('../../assets/kids-activewear.jpg');
-  height: 400px;
-  width: 400px;
-  background-size: cover;
+.product-square {
   text-align: center;
-  font-size: larger;
-  font-weight: bold;
 }
 
-.row
-{
-  margin-top: 10px;
-  margin-bottom: 80px;
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
