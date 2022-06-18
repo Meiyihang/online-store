@@ -7,74 +7,74 @@ export class ProductService {
         const prodArr: Product[] = [];
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is kids product 1',
+            name: 'kidswear 1',
+            discountPrice: 100,
+            price: 200,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear1.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a kids product 2',
+            name: 'kidswear 2',
+            discountPrice: 300,
+            price: 400,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear2.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a kids product 3',
+            name: 'kidswear 3',
+            discountPrice: 500,
+            price: 600,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear3.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a kids product 4',
+            name: 'kidswear 4',
+            discountPrice: 700,
+            price: 800,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear4.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
+            description: 'This is a kids product 5',
+            name: 'kidswear 5',
+            discountPrice: 900,
             price: 1500,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear5.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
+            description: 'This is a kids product 6',
+            name: 'kidswear 6',
             discountPrice: 1000,
             price: 1500,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/kidswear6.jpg'
             ]
         });
 

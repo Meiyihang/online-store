@@ -35,6 +35,7 @@ import { OurpoliciesComponent } from 'src/pages/ourpolicies/ourpolicies.componen
     AppRoutingModule,
     CommonModule,
     FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

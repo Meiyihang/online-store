@@ -7,74 +7,74 @@ export class ProductService {
         const prodArr: Product[] = [];
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
+            description: 'This is a mens product 1',
+            name: 'menwear 1',
             discountPrice: 1000,
             price: 1500,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+                '/assets/menwear1.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a mens product 2',
+            name: 'menwear 2',
+            discountPrice: 800,
+            price: 1600,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+              '/assets/menwear2.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a mens product 3',
+            name: 'menwear 3',
+            discountPrice: 900,
+            price: 2000,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+              '/assets/menwear3.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a mens product 4',
+            name: 'menwear 4',
+            discountPrice: 550,
+            price: 1700,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+              '/assets/menwear4.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a mens product 5',
+            name: 'menwear 5',
+            discountPrice: 1540,
+            price: 3600,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+              '/assets/menwear5.jpg'
             ]
         });
 
         prodArr.push({
-            description: 'This is a sample product',
-            name: 'Sample product',
-            discountPrice: 1000,
-            price: 1500,
+            description: 'This is a mens product 6',
+            name: 'menwear 6',
+            discountPrice: 1800,
+            price: 2000,
             sku: 'prod-1',
             stock: 5,
             pictureUrls: [
-                'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/run-on-shoes-1637184473.jpg'
+              '/assets/menwear6.jpg'
             ]
         });
 

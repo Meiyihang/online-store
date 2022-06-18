@@ -14,7 +14,8 @@ export class MenComponent implements OnInit {
   public categories: ProductCategory[] = [];
 
   public selectedCategory?:ProductCategoryType;
-  productService: any;
+
+
 
   constructor(
     private menProductService: ProductService
@@ -27,9 +28,13 @@ export class MenComponent implements OnInit {
   public onCategoryClick(menType: ProductCategoryType) {
     this.selectedCategory = menType;
 
-    this.products = this.productService.getProducts(menType);
+    this.products = this.menProductService.getProducts(menType);
 }
 
+public onBackToCategories(): void {
+  this.selectedCategory = undefined;
+  this.products = [];
+}
 
 
 }

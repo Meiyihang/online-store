@@ -14,22 +14,24 @@ export class KidsComponent implements OnInit {
   public categories: ProductCategory[] = [];
 
   public selectedCategory?:ProductCategoryType;
-  productService: any;
 
   constructor(
-    private menProductService: ProductService
+    private kidsProductService: ProductService
   ) {}
 
   ngOnInit(): void {
-    this.categories = this.menProductService.getCategories();
+    this.categories = this.kidsProductService.getCategories();
   }
 
-  public onCategoryClick(menType: ProductCategoryType) {
-    this.selectedCategory = menType;
+  public onCategoryClick(kidsType: ProductCategoryType) {
+    this.selectedCategory = kidsType;
 
-    this.products = this.productService.getProducts(menType);
+    this.products = this.kidsProductService.getProducts(kidsType);
 }
 
-
+public onBackToCategories(): void {
+  this.selectedCategory = undefined;
+  this.products = [];
+}
 
 }
