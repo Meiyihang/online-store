@@ -1,0 +1,9 @@
+<div *ngIf="!selectedCategory" class="products-container">
+  <h1>List all Products</h1>
+  <div class="product-grid">
+      <div *ngFor="let category of categories" class="product-square">
+          <img [src]="category.pictureUrl"  />
+          <p style="font: 40px bold;">{{category.name}}</p>
+      </div>
+  </div>
+</div>

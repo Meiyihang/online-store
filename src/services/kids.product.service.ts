@@ -87,38 +87,38 @@ export class ProductService {
      * @returns
      */
     public getCategories(): ProductCategory[] {
-        const menArray: ProductCategory[] = [];
-        menArray.push({
+        const kidsArray: ProductCategory[] = [];
+        kidsArray.push({
             name: 'Shirts',
             pictureUrl: '/assets/kids-shirts.jpg',
             id: ProductCategoryType.Shirts
         });
-        menArray.push({
+        kidsArray.push({
             name: 'Pants',
             pictureUrl: '/assets/kids-pants.jpg',
             id: ProductCategoryType.Pants
         });
-        menArray.push({
+        kidsArray.push({
             name: 'Shoes',
             pictureUrl: '/assets/kids-shoes.jpg',
             id: ProductCategoryType.Shoes
         });
-        menArray.push({
+        kidsArray.push({
             name: 'Accessories',
             pictureUrl: '/assets/kids-accessories.png',
             id: ProductCategoryType.Accessories
         });
-        menArray.push({
+        kidsArray.push({
             name: 'SwimWear',
             pictureUrl: '/assets/kids-swimwear.jpg',
             id: ProductCategoryType.SwimWear
           });
-        menArray.push({
+        kidsArray.push({
             name: 'ActiveWear',
-            pictureUrl: '/assets/men-activewear.jpg',
+            pictureUrl: '/assets/kids-activewear.jpg',
             id: ProductCategoryType.ActiveWear
         });
 
-        return menArray;
+        return kidsArray;
     }
 }

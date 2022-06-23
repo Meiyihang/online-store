@@ -3,6 +3,9 @@ import { Product, ProductCategory, ProductCategoryType } from "src/models/produc
 
 @Injectable({providedIn: 'root'})
 export class ProductService {
+
+
+
     getProducts(type: ProductCategoryType): Product[] {
         const prodArr: Product[] = [];
 

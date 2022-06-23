@@ -15,7 +15,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ContactusComponent } from 'src/pages/contactus/contactus.component';
 import { OurpoliciesComponent } from 'src/pages/ourpolicies/ourpolicies.component';
-
+import { AllproductsComponent } from 'src/pages/allproducts/allproducts.component';
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +29,15 @@ import { OurpoliciesComponent } from 'src/pages/ourpolicies/ourpolicies.componen
     ContactusComponent,
     OurpoliciesComponent,
     LoginComponent,
-    FormComponentComponent
+    FormComponentComponent,
+    AllproductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
   ],
   providers: [],
